@@ -45,7 +45,7 @@ package mx.com.itam.adsi.ejercicio;
 		s = ""; 
 		LOG.info("Ejecutando la prueba 1");
 		
-		assertTrue("Calculo para archivo 1:", calc(p.repetido(s),true));
+		assertTrue("Calculo para archivo 1:", calc(p.repetido(s),false));
 	    }
 
 	    @Test
@@ -58,10 +58,10 @@ package mx.com.itam.adsi.ejercicio;
 
 	    @Test
 	    public void correArchivo5() {
-		s = "holaholahola"; 
+		s = "holaholaholaaaaaaaaaaaaa"; 
 		LOG.info("Ejecutando la prueba 1");
 		
-		assertTrue("Calculo para archivo 1:", calc(p.repetido(s),true));
+		assertTrue("Calculo para archivo 1:", calc(p.repetido(s),false));
 	    }
 	
 	    
