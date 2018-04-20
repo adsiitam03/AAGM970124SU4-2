@@ -1,0 +1,12 @@
+1)
+Para resolver el problema voy a agrarrar la cadena que el usuario manda como parámetro:
+tomar su longitud (n) y partirla a la mitad.
+tomo la subcadena s como las primeras n/2 (=n/t) letras y las repetiré (t veces)
+	verificar si la subcadena es igual a la original 
+		si sí, regresa true, 
+		si no, regresa false y vuelve a intentar el procedimiento pero haciendo las subcadenas más pequeñas
+
+si se queda sin letras la subcadena y nunca dio true, el resultado es falso.
+
+2)
+Considero que la solución podría tener mejoras, pero por el momento es la mejor idea que se me ocurre.
